@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import Destination from './destination.js'
-import Form from './form.js'
+import Destination from './destination';
+import Form from './form';
 
 
-class App extends Component{
-    render(){
-        return(
+class App extends Component {
+    render() {
+        return (
             <section className="booking">
-                <h1>ÅKA TÅG</h1>
+                <h1>Åka Tåg</h1>
                 <Destination from="Stockholm" to="Göteborg" />
                 <Form />
                 
@@ -16,4 +16,5 @@ class App extends Component{
         )
     }
 }
-export default App;
+
+export default App; 
